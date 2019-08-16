@@ -50,15 +50,17 @@ document.addEventListener("DOMContentLoaded", function(event) {
         let currentTime = moment();
         console.log("CURRENT TIME: " + moment(currentTime).format("hh:mm"));
 
-        // First Time 
+        // =========== PSEUDO CODE =============
+        
+        // Capture the first train time
 
-        // Difference between the times
+        // Calculate the difference between the times in moment
 
-        // Time remaining
+        // Calculate the time remaining
 
-        // Minute Until Train
+        // Calculate the minute Until Train time
 
-        // Minuts Away
+        // Append the calculated data
 
 
         handleNewTrain({ name:trainName , destination: destination, firstTrain: firstTrain, frequency: frequency });
